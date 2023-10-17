@@ -5,7 +5,8 @@ func isAnagram(s string, t string) bool {
 	}
 
 	// Create a map to keep track of the characters in the first string.
-	// The keys of the map are the characters, and the values are the number of times the character appears in the string.
+	// The keys of the map are the characters, and the values are the number
+	// of times the character appears in the string.
 	seenCharacters := make(map[rune]int)
 
 	// Iterate through each character in the first string.
